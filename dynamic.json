@@ -1,0 +1,45 @@
+{
+  "profile":{
+    "image":"images/mahesh hero.jpg",
+    "name":"vijay",
+
+    "design":"student",
+    "mobile":"9963414244",
+    "email":"murthy26@"
+
+  },
+  "career":{
+    "info":" word hard"
+  },
+  "education":
+[
+  {
+  "degree":"b.tech",
+  "institute":"MITS",
+  "percentage":"90",
+  "yop":"2021"
+},
+{
+  "degree":"intermediate",
+  "institute":"narayana",
+  "percentage":"90",
+  "yop":"2017"
+},
+{
+  "degree":"ssc",
+  "institute":"zphs",
+  "percentage":"87",
+  "yop":"2015"
+}
+],
+"skills":[
+{
+  "name":"web technologies",
+  "info":["html,css,js"]
+},
+{
+  "name":"database",
+  "info":["JDBC","FIREBASE","css"]
+}
+]
+}

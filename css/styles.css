@@ -1,0 +1,52 @@
+body {
+  background: #E74C3C   ;
+  text-align: center;
+
+}
+h1{
+  color: #17202A  ;
+}
+.parent{
+  background:#7DCEA0;
+  display:flex;
+  margin: 6%;
+  padding: 3%;
+   justify-content: center;
+border-radius: 5%;
+border: 2px solid#CB4335
+}
+.child{
+  background:#3498DB ;
+  width: 25%;
+  margin:2%;
+  padding:2%;
+  padding-top: 2%;
+  height: 80%;
+  text-align: center;
+  border:2px solid#C0392B;
+  border-radius: 5%;
+}
+
+img{
+  width: 80%;
+  height: 50%;
+  padding: 5%;
+
+}
+@media screen and (max-width:767px){
+  .parent{
+    flex-wrap:wrap;
+
+  }
+  .child{
+    width: 100%;
+  }
+}
+@media screen and (min-width:768px) and (max-width:1024px){
+  .parent{
+    flex-wrap: wrap;
+  }
+  .child{
+    width: 30%;
+  }
+}
